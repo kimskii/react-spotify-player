@@ -75,7 +75,7 @@ td {
   padding-left: 100px;
 }
 
-tr:hover {
+.song-list:hover {
   background: #1ecd97;
   color: #333;
 }
@@ -107,6 +107,7 @@ a:hover {
 .playlist-header {
   font-size: 12vmin;
   font-style: bold;
+  text-decoration: underline;
 }
 
 .progress-bar {
