@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "deploy": "^1.0.3",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "react": "^16.8.4",
     "react-async-script-loader": "^0.3.0",
@@ -20,12 +21,14 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
   },
+  "homepage": "https://kimskii.github.io/stackathon-spotify",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "script/deploy"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
