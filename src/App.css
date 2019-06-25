@@ -30,13 +30,9 @@
 div.login-intro {
   display: flex;
   flex-direction: row;
-  /* justify-items: center; */
-  /* align-items: center; */
   font-size: 12vmin;
   color: #ffaccf;
   padding-bottom: 20rem;
-  /* background-color: red; */
-  /* min-height: 50vh; */
 }
 
 #quote {
